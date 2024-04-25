@@ -1,7 +1,7 @@
 use dbo.Hospital
 
 ---------------------------------------------------------------- insert into Department Table-------------------------
-/*
+
 select * from Department;
 insert into Department values(101,8135731111);
 insert into Department values(102,8135731112);
@@ -13,11 +13,11 @@ insert into Department values(107,8135731117);
 insert into Department values(108,8135731118);
 insert into Department values(109,8135731119);
 insert into Department values(110,8135732117);
-*/
+
 
 
 -----------------------------------------------------------------Insert into Doctor--------------------------------------------
-/*
+
 select * from doctor;
 insert into Doctor values('Sai Pavan','Banala',101,8135731604,NULL,1);
 insert into Doctor values('Durga Mhan','Bathula',101,8135731234,1,1);
@@ -29,19 +29,19 @@ insert into Doctor values('Hema','Morusu',105,8135731983,5,1);
 insert into Doctor values('Likitha','Morusu',110,8135731983,9,11);
 insert into Doctor values('Shyam','Ranga',110,76879123,10,11);
 insert into Doctor values('Rajhu','Singh',104,9019237811,12,4);
-*/
+
 
 
 --------------------------------------------------------------Insert into Certifications---------------------------------
-/*
+
 select * from Certifications;
 insert into Certifications values('AE-C','Certified Asthma Educator','naecb.org');
 insert into Certifications values('AFN-BC','Advanced Forensic Nursing','forensicnurses.org');
 insert into Certifications values('AGACNP-BC','Adult-Gerontology Acute Care Nurse Practitioner','www.nursingworld.org');
-*/
+
 
 ---------------------------------------------------------------Insert into Nurse--------------------------------
-/*
+
 select * from Nurse;
 insert into Nurse values(1001,'Prasanthi','Dhagga','A-GNP',2000,Null,1);
 insert into Nurse values(1002,'Rachel','Jafra','AACRN',2005,1001,1);
@@ -53,11 +53,11 @@ insert into Nurse values(1007,'Shiva','Rudhra','AGACNP-BC',2015,1004,2);
 insert into Nurse values(1008,'Rama Rao','Maroju','AFN-BC',2015,1001,1);
 insert into Nurse values(1009,'Raghu Varma','Shivendu','AFN-BC',2014,1001,1);
 insert into Nurse values(1010,'Vikranth','Rona','AE-C',2012,1001,1);
-*/
+
 
 
 --------------------------------------------------------------Insert into Patient-------------------------------------------------------
-/*
+
 select * from patient;
 insert into Patient values(10001,'jagadesh','nayak',45,'Sunstone palms 2204','tampa','FL');
 insert into patient values(10002,'suresh','sadhanala',50,'flecher street 2156','tampa','FL');
@@ -71,11 +71,10 @@ insert into patient values(10007,'Govinda','Pia',26,'942C East Theatre St.','Mou
 insert into patient values(10008,'Shri','Uzzi',22,'86 Kingston Dr.','Chevy Chase','MD');
 insert into patient values(10009,'Praveena','Nicu',18,'9665 Winding Way Ave.','Wethersfield','CT');
 insert into patient values(10010,'Adva','Gopinath',18,'68 W. Lower River Drive','Maspeth','NY');
-*/
 
 
 ------------------------------------------------------Insert into Operation Type-------------------------------------
-/*
+
 select * from operation_type;
 insert into Operation_Type values('Appendec','03:30',450);
 insert into Operation_Type values('Breastbi','03:30',500);
@@ -87,11 +86,11 @@ insert into Operation_Type values('Corartby','01:00',2000);
 insert into Operation_Type values('Dil&cure','02:00',1000);
 insert into Operation_Type values('Freskgra','02:00',1000);
 insert into Operation_Type values('Hemrhoid','03:00',500);
-*/
+
 
 
 ------------------------------------------------------Insert into Degree--------------------------------------
-/*
+
 select * from doctor;
 select * from degree;
 insert into Degree values(1,'MD','Doctor of Medicine','Loma Linda University School of Medicine',2005);
@@ -103,11 +102,11 @@ insert into Degree values(9,'MD','Neurology','Stanford University School of Medi
 insert into Degree values(10,'MD','Obstetrics and Gynaecology','Krishna Institute of medicine',2002);
 insert into Degree values(11,'MD','Bariatric Surgery','Loma Linda University School of Medicine',2002);
 insert into Degree values(12,'MD','ENT','Krishna Institute of medicine',2010);
-*/
+
 
 
 -------------------------------------------------------Insert into Operation-----------------------------------------
-/*
+
 select * from operation;
 insert into Operation values(10001,1,'Appendec','2022-05-13','12:30','14:30',102);
 insert into Operation values(10002,1,'Appendec','2022-05-14','12:30','14:30',102);
@@ -119,11 +118,11 @@ insert into Operation values(10007,10,'Cesarsec','2022-10-01','10:30','12:30',10
 insert into Operation values(10008,10,'Cesarsec','2022-10-02','10:30','12:30',100);
 insert into Operation values(10009,1,'Appendec','2022-09-13','12:30','14:30',102);
 insert into Operation values(10010,2,'Breastbi','2022-09-20','06:30','09:30',202);
-*/
+
 
 
 -------------------------------------------------------Insert Into Insurance Company------------------------------
-/*
+
 select * from insurance_company;
 insert into Insurance_Company values(101,'United Health',8339731230,'Tampa','FL');
 insert into Insurance_Company values(102,'Kaiser Foundation',8339731240,'Phoenix','Arizona');
@@ -135,11 +134,11 @@ insert into Insurance_Company values(107,'Blue Cross Blue Shield',637123473,'Ben
 insert into Insurance_Company values(108,'Cigna',876542312,'Bakersfield','California');
 insert into Insurance_Company values(109,'Ambetter',764235127,'Culver City','California');
 insert into Insurance_Company values(110,'Medi plus',9849222226,'Milford','Connecticut');
-*/
+
 
 
 -------------------------------------------------------------Insert into Claim-------------------------------------------------
-/*
+
 select * from claim;
 insert into Claim values(2022101,101,10001,'Appendec',450);
 insert into claim values(2022102,101,10002,'Appendec',450);
@@ -151,19 +150,19 @@ insert into claim values(2022107,101,10007,'Cesarsec',350);
 insert into claim values(2022108,106,10008,'Cesarsec',350);
 insert into claim values(2022109,104,10009,'Appendec',450);
 insert into claim values(2022110,102,10010,'Breastbi',500);
-*/
+
 
 
 -----------------------------------------------------------insert into appointment---------------------------------
-/*
+
 select * from Appointment;
 insert into Appointment values(1,3,2,'Ram Sai','Garigapati',7989192567,'Ramsai@gmail.com','2022-10-19','Have mild symptoms of covid');
 insert into Appointment values(2,4,12,'Rajhu','Singh',9019237811,'RajhuSingh@gmail.com','2022-10-29','Ear pain since 3 days')
-*/
+
 
 
 -----------------------------------------------------------------Select Statements---------------------------------------------
-/*
+
 select * from claim;
 select * from insurance_company;
 select * from Operation;
